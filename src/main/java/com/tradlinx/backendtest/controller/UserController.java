@@ -57,6 +57,7 @@ public class UserController {
 			users.setPw(passwordEncoder.encode(user.getPw()));
 			users.setUserid(user.getUserid());
 			users.setUsername(user.getUsername());
+			users.setPoints(0);
 			User u = userService.save(users);
 
 

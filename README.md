@@ -105,3 +105,17 @@ Cloud나 단일 서버에서도 가능합니다.
 <br />
 
 ========================================================================================
+
+
+### 3. 사용방법
+```
+1. git clone & clean & install & run
+2. http://localhost:8080/h2console 접속 후 
+   JDBC-URL : jdbc:h2:~/springEmbeded-db
+   ID : sa
+   비밀번호 없음
+3. DDL 생성
+4. http://localhost:8080/api-docs 접속 후 테스트
+5. Unit Test는 JWT 토큰인증받는 부분까지만 테스트 완료 후 Swagger로 테스트 하였음
+   /test/*
+```
